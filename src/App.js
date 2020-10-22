@@ -4,7 +4,7 @@ import GlobalStyle from './GlobalStyle';
 import Header from './components/Header';
 import Home from './pages/Home';
 
-function App() {
+export default function App() {
   return (
     <>
       <GlobalStyle />
@@ -26,5 +26,3 @@ function App() {
     </>
   );
 }
-
-export default App;
